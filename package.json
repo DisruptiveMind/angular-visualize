@@ -1,0 +1,26 @@
+{
+  "name": "angular-visualize-directive",
+  "version": "0.0.1",
+  "description": "AngularJS 1.x directive for Jasper Visualize",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DisruptiveMind/angular-visualize-directive.git"
+  },
+  "keywords": [
+    "angular",
+    "jasper"
+  ],
+  "author": "Tyler Pham <tyler@disruptiveart.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DisruptiveMind/angular-visualize-directive/issues"
+  },
+  "homepage": "https://github.com/DisruptiveMind/angular-visualize-directive#readme"
+}

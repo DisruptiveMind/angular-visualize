@@ -26,7 +26,7 @@ https://github.com/rgarom/angular-visualize-directive
 
 */
 
-angular.module('angular-visualize-directive', [])
+angular.module('angular-visualize', [])
     .directive('visualize', function() {
 
         return {
@@ -58,7 +58,7 @@ angular.module('angular-visualize-directive', [])
                       left: '50%' // Left position relative to parent
                     };
                     var target = document.getElementById(element[0].id);
-                    var spinner = new Spinner(opts).spin(target);			
+                    var spinner = new Spinner(opts).spin(target);
 
                     /* Configure your jasperserver connection */
                     visualize(
@@ -79,7 +79,7 @@ angular.module('angular-visualize-directive', [])
                             error: function(){ //TODO handle error creating report
                             }
                         });
-                        
+
                         report.refresh()
                             .done(function(){
                                 console.log("report loaded");
@@ -88,7 +88,7 @@ angular.module('angular-visualize-directive', [])
                                 condole.log("report error")
                             })
                             .always(function(){
-                                spinner.stop();        
+                                spinner.stop();
                             });
                     },
 
@@ -98,4 +98,4 @@ angular.module('angular-visualize-directive', [])
                 }
             }
         }
-}); 
+});
