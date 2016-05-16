@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DisruptiveMind/angular-visualize-directive.git"
+    "url": "git+https://github.com/DisruptiveMind/angular-visualize.git"
   },
   "keywords": [
     "angular",
@@ -20,7 +20,7 @@
   "author": "Tyler Pham <tyler@disruptiveart.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DisruptiveMind/angular-visualize-directive/issues"
+    "url": "https://github.com/DisruptiveMind/angular-visualize/issues"
   },
-  "homepage": "https://github.com/DisruptiveMind/angular-visualize-directive#readme"
+  "homepage": "https://github.com/DisruptiveMind/angular-visualize#readme"
 }
